@@ -1,0 +1,28 @@
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.navbar {
+  background-color: pink;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  float: left;
+  display: block;
+  padding: 10px;
+}
+li a:hover {
+  display: inline;
+  background-color: black;
+}
+.active {
+  background-color: #4caf50;
+  color: white;
+}
