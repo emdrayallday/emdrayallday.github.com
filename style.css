@@ -5,6 +5,7 @@
   color: white;
 }
 .navbar {
+  align-items: center;
   background-color: pink;
   overflow: hidden;
 }
@@ -15,11 +16,11 @@ ul {
 }
 li a {
   float: left;
-  display: block;
+  display: inline;
   padding: 10px;
+  text-decoration: none;
 }
 li a:hover {
-  display: inline;
   background-color: black;
 }
 .active {
